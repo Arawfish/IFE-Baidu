@@ -6,15 +6,13 @@ body{
 	background-color: #dedede;
 	color: #767777;
 	font-size: 12px;
-	font-family: "Microsoft YaHei";
-	margin: 0 auto;
+	font-family: "SimHei";
 }
 .container{
 	background-color: #fff;
-	width: 892px;
+	width: 980px;
 	height: 1386px;
 	margin: 0 auto;
-	padding:0 44px;
 }
 
 /*****************//*头部*//*****************/
@@ -22,333 +20,389 @@ header{
 	position: relative;
 	width: 892px;
 	height: 61px;
+	margin: 0 auto;
+	background-color: #fff;
 	border-bottom: 2px solid #938e8c;
 }
-header .ife{
+header .header_bg{
 	position: relative;
 	width: 110px;
 	height: 61px;
 	background-color: #d45d5c;
 }
-header .ife p{
+header .header_bg p{
 	position: absolute;
+	bottom: 2px;
+	left: 4px;
 	color: #fff;
-	margin-left: 4px;
-	bottom:2px;
 }
-header .data p{
+header .header_time{
 	position: absolute;
-	color: #d45d5c;
-	bottom: 0;
+	bottom: 2px;
 	right: 0;
+	color: #d45d5c;
 }
 
 /*****************//*主体*//*****************/
 .middle{
 	position: relative;
-	margin-top: 35px;
+	margin: 34px 44px 44px 44px;
 }
 
-.pic_middle{
+.middle_left{
 	position: relative;
-	margin-right: 22px;
+	float: left;
 }
-.pic_middle img{
-	position: relative;
+.middle_left img{
 	width: 641px;
 	height: 301px;
 }
-.pic_middle_l{
+.cover_left{
 	position: absolute;
-	background-color: #75b86b;
-	opacity: 0.5;
+	top: 0px;
+	left: 0px;
 	width: 191px;
 	height: 301px;
-	top: 0;
-	left: 0;
+	background-color: green;
+	opacity: 0.3;
 }
-.pic_middle_r{
+.cover_right{
 	position: absolute;
-	background-color: #d45d5c;
-	opacity: 0.5;
-	width: 191px;
-	height: 301px;
-	top:0;
+	top: 0px;
 	left: 450px;
-	
+	width: 191px;
+	height: 301px;
+	background-color: #d45d5c;
+	opacity: 0.3;
 }
-.aside{
-	position: absolute;
-	top: 0;
-	right: 0;
+.middle_right{
+	position: relative;
+	float: right;
 	width: 203px;
+	height: 300px;
 	border-top: 2px solid #cc8091;
-	margin-left: 22px;
-	margin-right: 4px;
-	padding-top: 10px;
 }
-.aside h2{
+.about{
+	font-size: 24px;
 	color: #000;
+	font-family: "Microsoft YaHei";
+	line-height: 40px;
+	font-variant: small-caps;
 	text-decoration: underline;
 	text-transform: capitalize;
 }
-.aside > p{
-	color:#676767;
-	font-family: 'KaiTi';
+#spacing{
+	margin-top: -10px;
 }
-.aside .num{
-	position: relative;
-	left: -15px;
+.detail{
+	font-family: "KaiTi";
+	line-height: 10px;
+	font-style: oblique;
+}
+.num{
+	font-size: 116px;
 	color: #75b86b;
 	font-family: "Microsoft YaHei";
-	font-size: 116px;
 	font-style: oblique;	
+	margin-left: -18px;
 }
-.aside_down{
-	position: relative;
+.mark{
+	color: #cc8091;
+	font-family: "Microsoft YaHei";
 }
 .mark_1{
 	position: absolute;
+	left: 0px;
+	bottom: -10px;
 	font-size: 55px;
-	color: #cc8091;
-	left: 10px;
 }
 .mark_2{
 	position: absolute;
+	bottom: 10px;
+	left: 85px;
 	font-size: 21px;
-	color: #cc8091;
-	top: 25px;
-	left: 90px;
 }
 .mark_3{
 	position: absolute;
-	top: 45px;
-	left: 91px;
+	bottom: 0px;
+	left: 85px;
+	color: #ccc;
 }
 .wwh{
-	width: 641px;
-	margin: 44px 0
-}
-.wwh div{
-	float: left; 
-	margin-right: 30px;
-}
-.wwh h3{
-	padding-bottom: 10px;
-	text-transform: capitalize;
-	text-decoration: underline;
-}
-.what{
-	width: 220px;
-}
-.when{
-	width: 190px;
-}
-.how{
-	width: 141px;
-}
-.what h3{
-	color: #418c59;
-}
-.when h3{
-	color: #d2994f;
-}
-.how h3{
-	color: #cc7680;
-}
-.how p{
-	line-height: 1.8em;
-}
-.how ul{
-	margin-top: 15px;
-	line-height: 1.8em;
-}
-.how ul li{
-	display: block;
-}
-.how ul li span{
-	color: #cd4a48;
-}
-.bottom{
-	width: 892px;
 	float: left;
-	margin: 44px 0;
 	overflow: auto;
+	width: 641px;
+	margin: 44px;
+	font-family: "Microsoft YaHei";
 }
-.left{
+.wwh_left{
 	float: left;
-	width: 405px;
-}
-.left_up{
-	font-family: "SimHei";
-	font-weight: bold;
-	text-transform: uppercase;
-	width: 403px;
-	padding-bottom: 10px;
-	border-bottom: 2px solid #11456b;
-
-}
-.left_up .the{
-	font-size: 72px;
-	color: #f5e327;
-	font-style: oblique;
-	line-height: 1em;
+	width: 230px;
 	margin-right: 20px;
 }
-.left_up p{
-	font-size: 42px;
-	color: #11456b;
-	line-height: 1em;
+.what{
+	height: 28px;
+	font-size: 16px;
+	color: #418c59;
+	font-weight: bold;
+	text-decoration: underline;
+	cursor: pointer;
 }
-.left_up .front_end{
+.wwh_left p{
+	line-height: 16px;
+	font-family: "SimSun";
+}
+.wwh_middle{
+	float: left;
+	width: 210px;
+	margin-right: 20px;
+}
+.when{
+	height: 28px;
+	font-size: 16px;
+	color: #d2994f;
+	font-weight: bold;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.wwh_middle p{
+	line-height: 16px;
+	color: #231815;
+	opacity: 0.7;
+}
+.wwh_right{
+	float: left;
+	width: 140px;
+	margin-right: 20px;
+}
+.how{
+	height: 28px;
+	font-size: 16px;
+	color: #cc7680;
+	font-weight: bold;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.wwh_right p{
+	line-height: 20px;
+	color: #231815;
+	margin-bottom: 25px;
+}
+.wwh_right ul{
+	list-style: none;
+	color: #231815;
+	line-height: 16px;
+}
+.wwh_right ul li{
+	margin-bottom: 5px;
+}
+.wwh_right ul li span{
+	color: #cd4a48;
+	font-style: oblique;
+	line-height: 16px;
+	opacity: 0.7;
+}
+.article{
+	float: left;
+	width: 892px;
+	margin: 0px 44px 34px 44px;
+	overflow: auto;
+}
+.article_left{
+	float: left;
+	width: 415px;
+}
+.article_left_up{
+	width: 415px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #11456b;
+}
+.article_left_up .the{
+	font-size: 72px;
+	color: #f5e327;
+	margin-right: 20px;
+	font-family: "SimHei";
+	font-weight: bold;
+	font-style: oblique;
+	text-transform: uppercase;
+}
+.article_left_up p{
+	font-size: 42px;
+	font-family: "SimHei";
+	font-weight: bold;
+	line-height: 50px;
+	color: #11456b;
+	text-transform: uppercase;
+}
+.article_left_up .front_end{
 	font-size: 33px;
 	color: #11456b;
 }
-.left_down{
+.article_left_down{
 	margin-top: 20px;
-}
-.left_down .front{
-	font-size: 70px;
-	color: #f5e327;
-	float: left;
-	margin-right: 10px;
-	line-height: 1em;
-}
-.left_down p{
-	font-family: "SimSun";
-	font-size: 12px;
-	line-height: 16px;
-}
-.left_down .par_two{
-	text-indent:2em;
-}
-.left_down .par_three{
-	text-indent:2em;
-}
-.left_down .pic_left{
-	float: right;
-	padding: 16px;
-}
-.right{
-	float: right;
-	height: 458px;
-}
-.right_up{
 	position: relative;
-	margin-top: 15px;
-	margin-bottom: 30px;
 }
-.pic_right{
+.article_left_down p{
+	line-height: 16px;
+	text-indent: 2em;
+}
+.pre_one p:first-letter{
+  	float: left;
+  	font-size:70px;
+	color: #f5e327;
+	margin-right: 3px;
+	font-family: "Microsoft YaHei";
+	line-height: 70px;
+}
+.pre_one p{
+  clear: both;
+  text-indent: 0em;
+}
+.pre_one img{
+	float: right;
+	margin: 15px 9px 15px 15px;
+}
+.article_right{
+	float: right;
+	width: 458px;
+}
+.article_right_up{
 	position: relative;
 	width: 458px;
 	height: 275px;
 }
-.pic_right_up{
+.article_right_up img{
+	width: 458px;
+	height: 275px;
+}
+.img_text{
 	position: absolute;
-	left: 0;
-	top: 214px;
-	width: 428px;
-	height: 44px;
-	background-color: #000;
+	width: 458px;
+	height: 61px;
+	font-family: "Microsoft YaHei";
+	background: #000;
 	opacity: 0.6;
-	padding: 8.5px 0 8.5px 30px;
+	bottom: 0px;
 }
-.h_right_up{
-	float: left;
-	height: 44px;
-	line-height:44px; 
-	padding-left: 10px;
-	padding-right:10px;
-	border-left: 3px solid #72b16a;
-	font-size: 26px;
+.img_text p{
 	color: #fff;
+	font-size: 26px;
+	height: 44px;
+	margin: 8.5px 0px 8.5px 40px;
+	line-height: 44px;
+	border-left: 3px solid #72b16a;
+	text-indent: 0.5em;
 }
-.p_right_up{
-	line-height: 61px;
-	font-style: italic;
-	letter-spacing: 140%;
+.img_text p span{
+	font-size: 12px;
 	color: #72b16a;
+	font-style: oblique;
+  	line-height: 140%;
+  	margin-left: 5px;
 }
-.right_down{
+.article_right_down{
 	position: relative;
 	width: 458px;
-	height: 288px;
-	padding-top: 10px; 
-	background-color: #eeedd6;
+	height: 318px;
+	background-color: #eeeed6;
+	margin-top: 33px;
 }
-.right_down > p{
-	position: relative;
-	font-family: "SimSun";
+.text_top{
+	padding: 30px 20px 10px 20px;
+}
+.text_top ul{
+	list-style: none;
+	line-height: 20px;
+}
+.text_top ul li{
 	font-size: 16px;
 	color: #5a5b5b;
-	margin-left: 30px;
-	margin-top: 20px;
+	font-family: "SimSun";
+	text-align: left;
+	margin-bottom: 20px;
 }
-.right_down p .triangle{
-	 width: 0;
-	 height: 0;
-	 border-left:5px solid transparent;
-	 border-right: 5px solid transparent;
-	 border-bottom: 10px solid #10456b;
-	 display: inline-block;
+.triangle{
+	width: 0;
+	height: 0;
+	border-left:5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 10px solid #10456b;
+	display: inline-block;
 }
-.right_down p .mark_word{
+.word{
 	font-size: 12px;
-	font-family: "Microsoft YaHei";
-	font-style: italic;
+	font-style: oblique;
+	text-align: right;
 }
-.right_down_l{
+.text_left{
 	position: absolute;
-	top: 158px;
 	width: 260px;
-	height: 140px;
-	background-color: #d45d5c;
-}
-.right_down_l span{
-	font-size: 100px;
-	color: #fff;
-	float: left;
-}
-.right_down_l .line{
-	border-left: 2px solid #fff;
-	height: 86px;
-	float: left;
-	margin-top: 30px;
-}
-.right_down_l .mark_one{
-	font: oblique 21px "黑体";
-	color: #fff;
-	margin-left:10px;
-	margin-bottom: 10px;
-}
-.right_down_l .mark_word{
-	font: 12px "黑体";
-	color: #fff;
-	margin-left:10px;
-}
-.right_down_r{
-	float: right;
-	font-size: 14px;
-	width: 181px;
 	height: 160px;
+	background-color: #d45d5c;
+	bottom: 0px;
+	left: 0px;
+	color: #fff;
+}
+.zero{
+	float: left;
+	font-size: 110px;
+	font-family: "Microsoft YaHei";
+	border-right: 2px solid #fff;
+	height: 86px;
+	line-height: 86px;
+	margin: 37px 10px;
+	padding-right: 5px;
+}
+.nums{
 	margin-top: 40px;
+	font-size: 21px;
+	text-transform: uppercase;
+	font-style: oblique;
+	line-height: 24px;
 }
-.right_down_r p{
-	font:oblique 14px "SimHei";
-	color:#5a5b5b;
-	overflow: hidden;
+.hello{
+	margin-top: 6px;
+	line-height: 10px;
 }
-
+.text_right{
+	font-size: 14px;
+	color: #5a5b5b;
+	font-style: oblique;
+	line-height: 16px;
+	text-indent: 3em;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	width: 178px;
+	height: 160px;
+	margin-right: 10px;
+}
+.text_right span{
+	font-size: 72px;
+	color: #d45d5c;
+	line-height: 30px;
+}
+.quo_left{
+	position: absolute;
+  	bottom: 120px;
+  	right: 145px;
+ 	font-style: normal;
+}
+.quo_right{
+ 	position: absolute;
+  	bottom: 30px;
+ 	right: -10px;
+  	font-style: normal;
+}
 
 /*****************//*主体*//*****************/
 footer{
 	clear: both;
 	width: 892px;
-	height: 61px;
+	margin: 0 auto;
 	border-top: 1px solid #938e8c;
 }
 footer p{
 	float: right;
 	color: #d45d5c;
-	font-family: "SimHei";
 }
